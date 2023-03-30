@@ -1,0 +1,28 @@
+
+# Rust
+target/
+Cargo.lock
+Cargo.toml.orig
+
+# Rocket
+Rocket.toml
+Rocket.lock
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Build artifacts
+*.d
+*.o
+
+# Tests
+**/target/debug/deps/test-*
+
+# Miscellaneous
+*.log
+*.swp
+
+# ENV
+.env
